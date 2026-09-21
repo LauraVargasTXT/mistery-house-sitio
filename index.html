@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Mistery House: videojuego cozy de citas, misterio y ritmo que sana el alma al ritmo de la música.">
     <title>Mistery House - Sana el alma al ritmo de la música</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,25 +10,213 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="loader" class="loader"><div class="loader-content"><div class="musical-note">♫</div><div class="loader-bar"></div><p>Cargando Mistery House...</p></div></div>
+    <!-- LOADER -->
+    <div id="loader" class="loader">
+        <div class="loader-content">
+            <div class="musical-note">♫</div>
+            <div class="loader-bar"></div>
+            <p>Cargando Mistery House...</p>
+        </div>
+    </div>
+
+    <!-- CURSOR PERSONALIZADO -->
     <div id="cursor" class="custom-cursor">♫</div>
-    <header class="header"><nav class="navbar"><div class="logo"><h1>🏚️ Mistery House</h1></div><ul class="nav-links"><li><a href="#hero">Inicio</a></li><li><a href="#concepto">Concepto</a></li><li><a href="#proceso">Proceso</a></li><li><a href="#galeria">Galería</a></li><li><a href="#equipo">Equipo</a></li><li><a href="#contacto">Contacto</a></li></ul></nav></header>
 
-    <section id="hero" class="hero"><div class="hero-content"><h1 class="hero-title">Mistery House</h1><p class="hero-subtitle">Sana el alma al ritmo de la música</p><p class="hero-description">Un videojuego de citas, misterio y ritmo estilo Cozy que convierte cada canción en un espacio seguro para reconectar contigo.</p><div class="hero-buttons"><a href="#concepto" class="btn btn-primary">Conoce el proyecto</a><a href="#contacto" class="btn btn-secondary">Escríbenos</a></div></div><div class="hero-background"></div></section>
+    <!-- HEADER / NAV -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h1>🏚️ Mistery House</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#concepto">Concepto</a></li>
+                <li><a href="#proceso">Proceso</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#equipo">Equipo</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <section id="concepto" class="concepto"><div class="container"><h2 class="section-title">Sobre el Proyecto</h2><p class="concepto-texto">Mistery House combina narrativa emotiva, relaciones, misterio y mecánicas de ritmo interactivas. Cada NPC tiene una “canción-trauma” que representa su conflicto emocional: el jugador toca al ritmo de la música, toma decisiones que cambian la historia y ayuda a cada personaje a recuperar su equilibrio.</p><p class="concepto-texto">La experiencia está pensada para combatir el doomscrolling y la ansiedad digital con sesiones inmersivas de 25 minutos, sin distracciones, dirigidas a personas de 14 a 25 años interesadas en juegos cozy, música, narrativa y mindfulness.</p><div class="pillares-grid"><div class="pilar-card"><h3>🎵 Género</h3><p>Citas, misterio, ritmo y Cozy Game</p></div><div class="pilar-card"><h3>⚙️ Tecnología</h3><p>Blender 5.0 + Unity 2022.3 LTS con Toon Shader y PBR</p></div><div class="pilar-card"><h3>🎮 Mecánica central</h3><p>Ritmo de 4 carriles, decisiones narrativas y sesiones de mindfulness de 25 minutos</p></div><div class="pilar-card"><h3>🎨 Estilo visual</h3><p>Arte acuarela, estética romántica, cálida y envolvente</p></div></div></div></section>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Mistery House</h1>
+            <p class="hero-subtitle">Sana el alma al ritmo de la música</p>
+            <div class="hero-buttons">
+                <a href="#demo" class="btn btn-primary">Descarga Demo</a>
+                <a href="#contacto" class="btn btn-secondary">Escríbenos</a>
+            </div>
+        </div>
+        <div class="hero-background"></div>
+    </section>
 
-    <section id="proceso" class="proceso"><div class="container"><h2 class="section-title">Pipeline Creativo</h2><div class="timeline-container"><div class="timeline-progress"><div class="timeline-bar"></div></div><div class="timeline"><div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-content"><h3>Etapa 1: Preproducción &amp; Concept Art</h3><p>Definición del universo, referencias y moodboards.</p><span class="timeline-duration">Semana 1</span></div></div><div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-content"><h3>Etapa 2: Modelado 3D &amp; UVs</h3><p>Casa de 5 habitaciones, protagonista, 4 NPCs, 4 escenarios musicales y 20 props.</p><span class="timeline-duration">Semanas 2-8</span></div></div><div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-content"><h3>Etapa 3: Texturizado PBR &amp; Toon Shader</h3><p>Materiales 2K en Substance Painter y shaders estilizados para Unity.</p><span class="timeline-duration">Semanas 9-12</span></div></div><div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-content"><h3>Etapa 4: Animación &amp; UI de Ritmo</h3><p>Integración en Unity del sistema de notas de 4 carriles y la narrativa.</p><span class="timeline-duration">Semanas 13-15</span></div></div><div class="timeline-item"><div class="timeline-marker"></div><div class="timeline-content"><h3>Etapa 5: Render &amp; Postproducción</h3><p>Iluminación, composición, control de calidad y manual del proyecto.</p><span class="timeline-duration">Semanas 16-17</span></div></div></div></div></div></section>
+    <!-- CONCEPTO SECTION -->
+    <section id="concepto" class="concepto">
+        <div class="container">
+            <h2 class="section-title">Sobre el Proyecto</h2>
+            <p class="concepto-texto">
+                Mistery House es un videojuego de citas, misterio y ritmo estilo Cozy que obtiene inspiración en grandes éxitos como Project Sekai, Stardew Valley y Corazón de Melón. En el juego, cada decisión importa y cada canción cuenta una historia.
+            </p>
+            
+            <div class="pillares-grid">
+                <div class="pilar-card">
+                    <h3>🎵 Género</h3>
+                    <p>Citas, Misterio, Ritmo & Cozy Game</p>
+                </div>
+                <div class="pilar-card">
+                    <h3>⚙️ Motor & Tech</h3>
+                    <p>Blender 5.0 + Unity 2022.3 LTS (Toon Shader + PBR)</p>
+                </div>
+                <div class="pilar-card">
+                    <h3>🎮 Mecánica Central</h3>
+                    <p>UI de Ritmo de 4 carriles + Sesiones de 25 min Mindfulness</p>
+                </div>
+                <div class="pilar-card">
+                    <h3>🎨 Estilo Visual</h3>
+                    <p>Arte acuarela, estética romántica, cálida y envolvente</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <section id="galeria" class="galeria"><div class="container"><h2 class="section-title">Galería Interactiva</h2><div class="galeria-grid"><div class="galeria-card"><div class="galeria-image">🏠</div><h3>La Casa Musical</h3><p>El hub principal con cinco habitaciones.</p></div><div class="galeria-card"><div class="galeria-image">👥</div><h3>Personajes</h3><p>El protagonista y cuatro NPCs con historias propias.</p></div><div class="galeria-card"><div class="galeria-image">🎨</div><h3>Concept Art</h3><p>Referencias, moodboards y estética de acuarela.</p></div><div class="galeria-card"><div class="galeria-image">🎮</div><h3>UI de Ritmo</h3><p>Sistema interactivo de cuatro carriles.</p></div><div class="galeria-card"><div class="galeria-image">🌙</div><h3>Escenarios Musicales</h3><p>Cuatro escenas de canción para acompañar cada historia.</p></div><div class="galeria-card"><div class="galeria-image">💬</div><h3>Visual Novel</h3><p>Diálogos y decisiones que impactan las relaciones.</p></div></div></div></section>
+    <!-- PROCESO / TIMELINE -->
+    <section id="proceso" class="proceso">
+        <div class="container">
+            <h2 class="section-title">Pipeline Creativo</h2>
+            <div class="timeline-container">
+                <div class="timeline-progress">
+                    <div class="timeline-bar"></div>
+                </div>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Etapa 1: Preproducción & Concept Art</h3>
+                            <p>Definición de universo, referencias teatrales/musicales y moodboards</p>
+                            <span class="timeline-duration">Semana 1</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Etapa 2: Modelado 3D & UVs</h3>
+                            <p>Creación de la casa (5 habitaciones), 1 protagonista, 4 NPCs, 4 escenarios de canción y 20 props</p>
+                            <span class="timeline-duration">Semanas 2-8</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Etapa 3: Texturizado PBR & Toon Shader</h3>
+                            <p>Materiales 2K en Substance Painter y Toon Shader para personajes</p>
+                            <span class="timeline-duration">Semanas 9-12</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Etapa 4: Animación & UI de Ritmo</h3>
+                            <p>Integración en Unity con sistema de notas de 4 carriles e iluminación</p>
+                            <span class="timeline-duration">Semanas 13-15</span>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3>Etapa 5: Render & Postproducción</h3>
+                            <p>Iluminación HDRI, composición en After Effects, QA y manual</p>
+                            <span class="timeline-duration">Semanas 16-17</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <section id="equipo" class="equipo"><div class="container"><h2 class="section-title">Equipo Creativo</h2><div class="equipo-grid"><div class="equipo-card"><div class="equipo-avatar">👩‍🎨</div><h3>Laura Isabel Vargas Chaves</h3><p>Animación &amp; Integración</p></div><div class="equipo-card"><div class="equipo-avatar">🎬</div><h3>Nicol sofia.</h3><p>Dirección Creativa</p></div><div class="equipo-card"><div class="equipo-avatar">🖌️</div><h3>Luna Chica.</h3><p>Modelado 3D</p></div><div class="equipo-card"><div class="equipo-avatar">✨</div><h3>Laura Vargas.</h3><p>Artista de Materiales (PBR)</p></div><div class="equipo-card"><div class="equipo-avatar">🧪</div><h3>Instructor.</h3><p>Control de Calidad (QA)</p></div><div class="equipo-card"><div class="equipo-avatar">📝</div><h3>Laura VARGAS.</h3><p>Documentación</p></div></div></div></section>
+    <!-- GALERÍA -->
+    <section id="galeria" class="galeria">
+        <div class="container">
+            <h2 class="section-title">Galería Interactiva</h2>
+            <div class="galeria-grid">
+                <div class="galeria-card"><div class="galeria-image">🏠</div><h3>La Casa Musical</h3><p>Turntable 3D del escenario principal</p></div>
+                <div class="galeria-card"><div class="galeria-image">👥</div><h3>NPCs en Toon Shading</h3><p>Vista previa de los 4 personajes</p></div>
+                <div class="galeria-card"><div class="galeria-image">🎨</div><h3>Concept Art</h3><p>Muestras estilo acuarela y notas musicales</p></div>
+                <div class="galeria-card"><div class="galeria-image">🎮</div><h3>UI de Ritmo</h3><p>Sistema interactivo de 4 carriles</p></div>
+                <div class="galeria-card"><div class="galeria-image">🌙</div><h3>Escenarios Dinámicos</h3><p>Casa Musical: Mañana, Tarde, Noche</p></div>
+                <div class="galeria-card"><div class="galeria-image">💬</div><h3>Visual Novel</h3><p>Capturas de interacción y diálogos</p></div>
+            </div>
+        </div>
+    </section>
 
-    <section id="apoya" class="apoya"><div class="container"><h2 class="section-title">Sigue el Proyecto</h2><p class="apoya-texto">Acompáñanos en el desarrollo de Mistery House: un espacio seguro, musical y restaurador para combatir la ansiedad digital.</p><div class="apoya-buttons"><a href="https://app.notion.com/p/Proyecto-3D-MISTERY-HOUSE-42c996562b1046359ed87fdecfdc2138?source=copy_link" class="btn btn-primary" target="_blank" rel="noopener">Ver documentación</a><a href="https://discord.gg/ARNnr9mHZ" class="btn btn-secondary" target="_blank" rel="noopener">Únete al Discord</a></div><div class="progress-bar-container"><p>Cronograma: 17 semanas de desarrollo</p><div class="progress-bar"><div class="progress-fill" style="width: 35%;"></div></div><p class="progress-text">En desarrollo</p></div></div></section>
+    <!-- EQUIPO -->
+    <section id="equipo" class="equipo">
+        <div class="container">
+            <h2 class="section-title">Equipo Creativo</h2>
+            <div class="equipo-grid">
+                <div class="equipo-card"><div class="equipo-avatar">👩‍🎨</div><h3>Laura Isabel Vargas Chaves</h3><p>Animación & Integración</p></div>
+                <div class="equipo-card"><div class="equipo-avatar">🎬</div><h3>Nicol sofia.</h3><p>Dirección Creativa</p></div>
+                <div class="equipo-card"><div class="equipo-avatar">🖌️</div><h3>Luna Chica.</h3><p>Modelado 3D</p></div>
+                <div class="equipo-card"><div class="equipo-avatar">✨</div><h3>Laura Vargas.</h3><p>Artista de Materiales (PBR)</p></div>
+                <div class="equipo-card"><div class="equipo-avatar">🧪</div><h3>Instructor.</h3><p>Control de Calidad (QA)</p></div>
+                <div class="equipo-card"><div class="equipo-avatar">📝</div><h3>Laura VARGAS.</h3><p>Documentación</p></div>
+            </div>
+        </div>
+    </section>
 
-    <section id="contacto" class="contacto"><div class="container"><h2 class="section-title">Contacto</h2><form class="contacto-form" id="contactForm"><input type="text" placeholder="Tu nombre" required><input type="email" placeholder="Tu correo" required><textarea placeholder="Tu mensaje" rows="5" required></textarea><button type="submit" class="btn btn-primary">Enviar mensaje</button></form></div></section>
+    <!-- APOYA / PARTICIPA -->
+    <section id="apoya" class="apoya">
+        <div class="container">
+            <h2 class="section-title">Apoya el Proyecto</h2>
+            <p class="apoya-texto">Únete al viaje de desarrollo de Mistery House. Ayúdanos a combatir la ansiedad digital creando un espacio seguro, musical y restaurador.</p>
+            <div class="apoya-buttons">
+                <a href="https://app.notion.com/p/Proyecto-3D-MISTERY-HOUSE-42c996562b1046359ed87fdecfdc2138?source=copy_link" class="btn btn-primary" target="_blank" rel="noopener">Apóyanos</a>
+                <a href="https://discord.gg/ARNnr9mHZ" class="btn btn-secondary" target="_blank" rel="noopener">Únete al Discord</a>
+            </div>
+            <div class="progress-bar-container"><p>Cronograma: 17 semanas de desarrollo</p><div class="progress-bar"><div class="progress-fill" style="width: 35%;"></div></div><p class="progress-text">35% Completado</p></div>
+        </div>
+    </section>
 
-    <footer class="footer"><div class="container"><div class="footer-content"><div class="footer-section"><h4>Enlaces</h4><ul><li><a href="https://discord.gg/ARNnr9mHZ" target="_blank" rel="noopener">Discord</a></li><li><a href="https://github.com/LauraVargasTXT/mistery-house" target="_blank" rel="noopener">GitHub</a></li><li><a href="https://app.notion.com/p/Proyecto-3D-MISTERY-HOUSE-42c996562b1046359ed87fdecfdc2138?source=copy_link" target="_blank" rel="noopener">Notion</a></li><li><a href="#">YouTube (En desarrollo)</a></li></ul></div><div class="footer-section"><h4>Proyecto</h4><p>Tecnólogo en Animación 3D del SENA<br>Ficha 3410924<br>Instructor: Roilan Galleano</p></div></div><div class="footer-bottom"><p>&copy; 2026 Mistery House. Todos los derechos reservados.</p><p>Sana el alma al ritmo de la música. 🎵💕</p></div></div></footer>
+    <!-- CONTACTO / FOOTER -->
+    <section id="contacto" class="contacto">
+        <div class="container">
+            <h2 class="section-title">Contacto</h2>
+            <form class="contacto-form" id="contactForm">
+                <input type="text" placeholder="Tu nombre" required>
+                <input type="email" placeholder="Tu correo" required>
+                <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+                <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Enlaces</h4>
+                    <ul>
+                        <li><a href="https://discord.gg/ARNnr9mHZ" target="_blank" rel="noopener">Discord</a></li>
+                        <li><a href="https://github.com/LauraVargasTXT/mistery-house" target="_blank" rel="noopener">GitHub</a></li>
+                        <li><a href="https://app.notion.com/p/Proyecto-3D-MISTERY-HOUSE-42c996562b1046359ed87fdecfdc2138?source=copy_link" target="_blank" rel="noopener">Notion</a></li>
+                        <li><a href="#">YouTube (En desarrollo)</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Proyecto</h4>
+                    <p>Tecnólogo en Animación 3D del SENA<br>Ficha 3410924<br>Instructor: Roilan Galleano</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Mistery House. Todos los derechos reservados.</p>
+                <p>Sana el alma al ritmo de la música. 🎵💕</p>
+            </div>
+        </div>
+    </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
