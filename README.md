@@ -4,7 +4,7 @@
 
 ## 🎯 Descripción
 
-Este es el sitio web oficial de Mistery House, un proyecto desarrollado para el Tecnólogo en Animación 3D del SENA. La página presenta de forma interactiva y cozy el concepto, proceso creativo, equipo, galería y formas de contacto.
+Este es el sitio web oficial de Mistery House, un proyecto desarrollado para el Tecnólogo en Animación 3D del SENA. La página presenta de forma interactiva y cozy el concepto, proceso creativo, personajes y equipo del proyecto.
 
 ## ✨ Características
 
@@ -13,11 +13,11 @@ Este es el sitio web oficial de Mistery House, un proyecto desarrollado para el 
 ✅ Loader animado  
 ✅ Navegación smooth scroll  
 ✅ Timeline interactivo con progreso al scroll  
-✅ Galería de imágenes interactiva  
+✅ Galería de conceptos y sistemas del juego  
 ✅ Formulario de contacto  
 ✅ Completamente responsive  
 ✅ Animaciones micro-interacciones  
-✅ Efectos parallax  
+✅ Efectos parallax
 
 ## 🎨 Design System
 
@@ -28,56 +28,54 @@ Este es el sitio web oficial de Mistery House, un proyecto desarrollado para el 
 | Acento/CTA | #E75480 (Rose Gold) |
 | Fondo | #FFF0F5 (Lavender Blush) |
 
-**Tipografía**:
-- Títulos: Great Vibes, Playfair Display, Dancing Script
-- Texto: Quicksand, Nunito
+**Tipografía:** Great Vibes / Playfair Display para títulos y Quicksand / Nunito para texto.
 
 ## 📁 Estructura
 
 ```
 mistery-house-sitio/
 ├── index.html          # Página principal
-├── styles.css          # Estilos y animaciones
-├── script.js           # Interactividades
-└── README.md           # Este archivo
+├── styles.css           # Estilos y animaciones
+├── script.js            # Interactividades
+└── README.md            # Este archivo
 ```
 
 ## 🚀 Uso
 
-1. Clonar el repositorio
-2. Abrir `index.html` en el navegador
-3. O acceder al sitio en: https://lauravargastxt.github.io/mistery-house-sitio
+1. Clonar el repositorio.
+2. Abrir `index.html` en el navegador.
+3. O acceder al sitio: https://lauravargastxt.github.io/mistery-house-sitio
 
 ## 📝 Secciones
 
-- **Hero**: Portada principal con CTA
-- **Concepto**: Descripción del proyecto y pilares clave
-- **Proceso**: Timeline del pipeline creativo (17 semanas)
-- **Galería**: Grid interactivo de imágenes
-- **Equipo**: Tarjetas con miembros del equipo
-- **Apoya**: Llamada a la acción con enlaces
-- **Contacto**: Formulario de contacto
-- **Footer**: Enlaces y créditos
+- **Hero:** Presentación principal del proyecto.
+- **Concepto:** Descripción, propósito y pilares clave.
+- **Proceso:** Pipeline creativo de 17 semanas.
+- **Galería:** Sistemas, personajes y escenarios.
+- **Equipo:** Integrantes y responsabilidades.
+- **Contacto:** Formulario y enlaces de la comunidad.
 
 ## 🔗 Enlaces Importantes
 
-- 🌐 **Repositorio del Proyecto**: https://github.com/LauraVargasTXT/mistery-house
-- 💬 **Discord**: https://discord.gg/misteryhouse
-- 📋 **Notion**: https://notion.so/misteryhouse
+- 🌐 **Repositorio del Proyecto:** https://github.com/LauraVargasTXT/mistery-house
+- 💬 **Discord:** https://discord.gg/ARNnr9mHZ
+- 📋 **Notion:** https://app.notion.com/p/Proyecto-3D-MISTERY-HOUSE-42c996562b1046359ed87fdecfdc2138?source=copy_link
+- 📺 **YouTube:** En desarrollo
 
-## 👥 Créditos
+## 👥 Equipo
+
+- **Laura Isabel Vargas Chaves** — Animación & Integración
+- **Nicol sofia.** — Dirección Creativa
+- **Luna Chica.** — Modelado 3D
+- **Laura Vargas.** — Artista de Materiales (PBR)
+- **Instructor.** — Control de Calidad (QA)
+- **Laura VARGAS.** — Documentación
+
+## 📄 Créditos
 
 Proyecto desarrollado para el **Tecnólogo en Animación 3D del SENA**  
 Ficha: 3410924  
 Instructor: Roilan Galleano
-
-### Equipo
-- Laura Isabel Vargas Chaves — Animación & Integración
-- Doriam H. — Dirección Creativa
-- Enelia M. — Modelado 3D
-- Juliana C. — Artista de Materiales (PBR)
-- Katherin R. — Control de Calidad (QA)
-- Miguel G. — Documentación
 
 ## 📄 Licencia
 
